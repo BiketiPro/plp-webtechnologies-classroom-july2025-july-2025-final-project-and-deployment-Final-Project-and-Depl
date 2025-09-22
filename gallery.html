@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Art Gallery</title>
+  <link rel="stylesheet" href="CSS/gallery.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ArtGallery</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <section class="gallery-page">
+
+    <h1>Our Art-Gallery</h1>
+
+    <div class="gallery-divider">
+      <span class="icon">🎨</span>
+      <div class="line"></div>
+    </div>
+
+    <div class="gallery-description">
+    <p>
+      Established in 2020, ArtGallery has been dedicated to showcasing a diverse range of artworks
+      from emerging and established artists worldwide. Inspired by the transformative power of
+      creativity, our gallery was launched with the vision of making art accessible to everyone.
+    </p>
+    <p>
+      Our mission is to inspire creativity, support artists, and connect communities through art.
+      We focus on fostering innovation, celebrating cultural diversity, and building meaningful
+      conversations between artists and art enthusiasts.
+    </p>
+  </div>
+
+  <p>Explore our curated sections below to discover unique pieces from talented creators.</p>
+  
+     <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="abstract">Abstract</button>
+    <button class="filter-btn" data-filter="paintings">Paintings</button>
+    <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+    <button class="filter-btn" data-filter="drawings">Drawings</button>
+    <button class="filter-btn" data-filter="sculptures">Sculptures</button>
+    <button class="filter-btn" data-filter="oil">Oil Paintings</button>
+  </div>
+
+    <!-- Abstract Art -->
+    <h2 class="category-title" data-category="abstract">Abstract Art</h2>
+    <div class="gallery-grid abstract">
+      <img src="Assets/images/abstract1.jpg" loading="lazy">
+      <img src="Assets/images/abstract2.jpg" loading="lazy">
+      <img src="Assets/images/abstract3.jpg" loading="lazy">
+      <img src="Assets/images/abstract4.jpg" loading="lazy">
+      <img src="Assets/images/abstract5.jpg" loading="lazy">
+      <img src="Assets/images/abstract6.jpg" loading="lazy">
+    </div>
+
+    <!-- Paintings -->
+    <h2 class="category-title" data-category="paintings">Paintings</h2>
+    <div class="gallery-grid paintings">
+      <img src="Assets/images/painting1.jpg" loading="lazy">
+      <img src="Assets/images/painting2.jpg" loading="lazy">
+      <img src="Assets/images/painting3.jpg" loading="lazy">
+      <img src="Assets/images/painting4.jpg" loading="lazy">
+      <img src="Assets/images/painting5.jpg" loading="lazy">
+      <img src="Assets/images/painting6.jpg" loading="lazy">
+    </div>
+
+    <!-- Landscapes -->
+    <h2 class="category-title" data-category="landscapes">Landscapes</h2>
+    <div class="gallery-grid landscapes">
+      <img src="Assets/images/landscape1.jpg" loading="lazy">
+      <img src="Assets/images//landscape2.jpg" loading="lazy">
+      <img src="Assets/images/landscape3.jpg" loading="lazy">
+      <img src="Assets/images/landscape4.jpg" loading="lazy">
+      <img src="Assets/images//landscape5.jpg" loading="lazy">
+      <img src="Assets/images/landscape6.jpg" loading="lazy">
+    </div>
+
+    <!-- Drawings -->
+    <h2 class="category-title" data-category="drawings">Drawings</h2>
+    <div class="gallery-grid drawings">
+      <img src="Assets/images/drawing1.jpg" loading="lazy">
+      <img src="Assets/images/drawing2.jpg" loading="lazy">
+      <img src="Assets/images/drawing3.jpg" loading="lazy">
+      <img src="Assets/images/drawing4.jpg" loading="lazy">
+      <img src="Assets/images/drawing5.jpg" loading="lazy">
+      <img src="Assets/images/drawing6.jpg" loading="lazy">
+    </div>
+
+    <!-- Sculptures -->
+    <h2 class="category-title" data-category="sculptures">Sculptures</h2>
+    <div class="gallery-grid sculptures">
+      <img src="Assets/images/sculpture1.jpg" loading="lazy">
+      <img src="Assets/images/sculpture2.jpg" loading="lazy">
+      <img src="Assets/images/sculpture3.jpg" loading="lazy">
+      <img src="Assets/images/sculpture4.jpg" loading="lazy">
+      <img src="Assets/images/sculpture5.jpg" loading="lazy">
+      <img src="Assets/images/sculpture6.jpg" loading="lazy">
+    </div>
+
+    <!-- Oil Paintings -->
+    <h2 class="category-title" data-category="oil">Oil Paintings</h2>
+    <div class="gallery-grid oil">
+      <img src="Assets/images/oil_painting1.jpg" loading="lazy">
+      <img src="Assets/images/oil_painting2.jpg" loading="lazy">
+      <img src="Assets/images/oil_painting3.jpg" loading="lazy">
+      <img src="Assets/images/oil_painting4.jpg" loading="lazy">
+      <img src="Assets/images/oil_painting5.jpg" loading="lazy">
+      <img src="Assets/images/oil_painting6.jpg" loading="lazy">
+    </div>  
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Creative Ted. All Rights Reserved.</p>
+  </footer>
+
+  <script src="Javascript/gallery.js"></script>
+</body>
+</html>

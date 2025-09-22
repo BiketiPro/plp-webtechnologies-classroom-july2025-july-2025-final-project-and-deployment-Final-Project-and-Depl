@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Art Gallery</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ArtGallery</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" placeholder="Type your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <div id="formMsg" class="form-message"></div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3 class="faq-question">What are your opening hours?</h3>
+      <div class="faq-answer">
+        <p>Our gallery is open from 9:00 AM to 7:00 PM, Tuesday to Sunday.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">Where are you located?</h3>
+      <div class="faq-answer">
+        <p>We’re at 123 Art Street, Nairobi, Kenya.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">Do you host art exhibitions?</h3>
+      <div class="faq-answer">
+        <p>Yes! We host monthly exhibitions featuring local and international artists.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <h2>Join Our Newsletter</h2>
+    <p>Get the latest updates about exhibitions and new artworks.</p>
+    <form id="newsletterForm">
+      <input type="email" name="newsletterEmail" placeholder="Your Email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="newsletterMsg" class="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Creative Ted. All Rights Reserved.</p>
+  </footer>
+
+  <script src="Javascript/main.js"></script>
+</body>
+</html>

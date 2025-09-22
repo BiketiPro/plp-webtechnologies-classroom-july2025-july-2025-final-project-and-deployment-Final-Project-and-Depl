@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>ART GALLERY WEBSITE | Home</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="class">ArtGallery</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+   <section class="hero">
+    <div class="fade-in-left">
+    <h1>Welcome to the Art Gallery</h1>
+    <p>Discover stunning artworks and talented artists</p>
+    <a href="gallery.html" class="btn">Explore Gallery</a>
+    </div>
+   </section>
+
+   <!-- Featured Section -->
+  <section class="featured">
+  <div class="fade-in-right">
+  <h2>Featured Artworks</h2>
+  <div class="art-grid">
+    <div class="art-item slideshow" 
+         data-images="Assets/images/painting1.jpg,Assets/images/painting3.jpg,Assets/images/painting5.jpg">
+      <img src="Assets/images/painting1.jpg" alt="Featured Art 1" class="active">
+    </div>
+    <div class="art-item slideshow" 
+         data-images="Assets/images/abstract6.jpg,Assets/images/abstract1.jpg,Assets/images/abstract2.jpg">
+      <img src="Assets/images/abstract6.jpg" alt="Featured Art 2">
+    </div>
+    <div class="art-item slideshow" 
+         data-images="Assets/images/landscape5.jpg,Assets/images/landscape4.jpg,Assets/images/landscape1.jpg">
+      <img src="Assets/images/landscape5.jpg" alt="Featured Art 3">
+    </div>
+  </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Creative Ted. All Rights Reserved.</p>
+  </footer>
+
+  <script src="Javascript/main.js"></script>
+</body>
+</html>

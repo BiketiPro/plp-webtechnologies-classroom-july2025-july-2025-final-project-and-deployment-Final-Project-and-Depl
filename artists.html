@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artists | Art Gallery</title>
+  <link rel="stylesheet" href="CSS/artists.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ArtGallery</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artists.html" class="active">Artists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <section class="artists-page">
+    
+    <h1>Featured Artists</h1>
+
+    <!-- Artist 1 -->
+    <div class="artist-section">
+      <div class="artist-info">
+        <h2>Jane Doe</h2>
+        <p>
+          Jane Doe is a contemporary abstract artist known for her vibrant
+          color palettes and bold brushstrokes. Her works have been showcased
+          in international galleries and admired for their emotional depth.
+        </p>
+      </div>
+      <div class="artist-slideshow" data-images="Assets/images/jane1.jpg,Assets/images/art_gallery1.jpg,Assets/images/art_gallery2.jpg">
+        <img src="Assets/images/jane1.jpg" alt="Jane Doe">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+    </div>
+
+    <!-- Artist 2 -->
+    <div class="artist-section">
+      <div class="artist-info">
+        <h2>John Smith</h2>
+        <p>
+          John Smith specializes in realistic oil paintings inspired by
+          landscapes and everyday life. His mastery of detail brings his
+          subjects to life in a stunningly vivid manner.
+        </p>
+      </div>
+      <div class="artist-slideshow" data-images="Assets/images/john1.jpg,Assets/images/art_gallery.jpg,Assets/images/art_gallery4.jpg">
+        <img src="Assets/images/john1.jpg" alt="John Smith">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Creative Ted. All Rights Reserved.</p>
+  </footer>
+
+  <script src="Javascript/artists.js"></script>
+</body>
+</html>
